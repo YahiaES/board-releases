@@ -6,6 +6,25 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <link>https://github.com/YahiaES/board-releases</link>
     <language>en</language>
     <item>
+      <title>Board 1.6.5</title>
+      <pubDate>Sat, 26 Sep 2026 08:07:37 +0000</pubDate>
+      <sparkle:version>31</sparkle:version>
+      <sparkle:shortVersionString>1.6.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<style>body{font:13px -apple-system,sans-serif;line-height:1.45}h3{font-size:13px;margin:12px 0 4px}ul{padding-left:18px;margin:4px 0}li{margin:3px 0}</style>
+<h3>Changed</h3>
+<ul>
+<li><b>Ambient mode's glances sit on frosted glass</b> (Liquid Glass): the scene shows through, softly blurred, under a lit edge.</li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+<li><b>Ambient mode's glances leave out zeros,</b> like the sidebar: no more "0 unread" or "0 in progress". A glance that couldn't refresh still shows, with its stale mark.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/YahiaES/board-releases/releases/download/v1.6.5/Board-1.6.5.dmg" type="application/octet-stream" sparkle:edSignature="zvit+DY1ZGXC3gRe5/HO4robo5yrCZXjctV1ktu/y7NtCTgEDD4pIAwI1R/U1mScz86y35fiPJhZqJhC/RU4AQ==" length="8210143"></enclosure>
+    </item>
+    <item>
       <title>Board 1.6.4</title>
       <pubDate>Sat, 26 Sep 2026 07:32:33 +0000</pubDate>
       <sparkle:version>30</sparkle:version>
@@ -91,6 +110,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: uAxDGRB7kYunyhSkuEt0JCK33D+hNqytbCxzzokXdDuCJZi2cq9iogveF5dV+CM4uFPinT/CpdOoGobwvnA9AA==
-length: 6631
+edSignature: c33ofzGTT4ghL2vjO5Jk7zwl+fD3JSwSBMpmu88yh9QibxAnjqVWp5d2e36Ff9StgpFubqMnxq3q4qG2RA7vBw==
+length: 7787
 -->
