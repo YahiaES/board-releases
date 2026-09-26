@@ -1,0 +1,16 @@
+    <item>
+      <title>Board 1.6.6</title>
+      <pubDate>Sat, 26 Sep 2026 08:44:33 +0000</pubDate>
+      <sparkle:version>32</sparkle:version>
+      <sparkle:shortVersionString>1.6.6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<style>body{font:13px -apple-system,sans-serif;line-height:1.45}h3{font-size:13px;margin:12px 0 4px}ul{padding-left:18px;margin:4px 0}li{margin:3px 0}</style>
+<h3>Fixed</h3>
+<ul>
+<li><b>Walkers in ambient mode walk naturally.</b> The camels and their driver, the elephants, the fox, the reindeer and the deer keep each foot planted while the body passes over it, then lift it and swing it forward: their legs follow how far they move, so feet no longer slide along the ground, and a slowing deer comes to rest on planted hooves. Each has its own gait (camels pace, the fox trots, the rest walk in four beats), with a gentle bob; the giraffes stand planted while they browse.</li>
+<li><b>The fox's and the reindeer's footsteps</b> in the snow now come at the rate their feet land.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/YahiaES/board-releases/releases/download/v1.6.6/Board-1.6.6.dmg" type="application/octet-stream" sparkle:edSignature="dWEhC20DQe9yFtrzNuZ6uanILg/tjinJf67NwBKBGKxC0Ex+3wgtig6tFKFNtsKIiqLvx+hMbcw9TzuGKvNkBA==" length="8222749"/>
+    </item>
