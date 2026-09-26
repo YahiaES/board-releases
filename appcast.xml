@@ -6,6 +6,22 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <link>https://github.com/YahiaES/board-releases</link>
     <language>en</language>
     <item>
+      <title>Board 1.6.4</title>
+      <pubDate>Sat, 26 Sep 2026 07:32:33 +0000</pubDate>
+      <sparkle:version>30</sparkle:version>
+      <sparkle:shortVersionString>1.6.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<style>body{font:13px -apple-system,sans-serif;line-height:1.45}h3{font-size:13px;margin:12px 0 4px}ul{padding-left:18px;margin:4px 0}li{margin:3px 0}</style>
+<h3>Fixed</h3>
+<ul>
+<li><b>The calendar glance said "No more meetings"</b> when the only meeting left today was the next one (the header's). It now counts every meeting still ahead today: "1 meeting left today".</li>
+<li><b>Meeting times in the calendar popover</b> no longer wrap ("11:00 P / M"): the time column is as wide as the longest time your region writes, at any zoom.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/YahiaES/board-releases/releases/download/v1.6.4/Board-1.6.4.dmg" type="application/octet-stream" sparkle:edSignature="WqeNkS4OXSoCk74OFezMzseIIYDjp8m8TrJKewmTG6d89Ajr/m2i8BBe+UA+7NYBeTRnl6+OBcTM8xIhjsPzBw==" length="8212410"></enclosure>
+    </item>
+    <item>
       <title>Board 1.6.3</title>
       <pubDate>Sat, 26 Sep 2026 06:53:56 +0000</pubDate>
       <sparkle:version>29</sparkle:version>
@@ -75,6 +91,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: zDOIxmGqEBGU7/JlURpMEaVs/+977jqTRHm3kkEVQ8qzE+gToEt78uWkmsoL8CnrjmGLbrD1yxXJCv8NPRcEBQ==
-length: 5453
+edSignature: uAxDGRB7kYunyhSkuEt0JCK33D+hNqytbCxzzokXdDuCJZi2cq9iogveF5dV+CM4uFPinT/CpdOoGobwvnA9AA==
+length: 6631
 -->
