@@ -1,0 +1,15 @@
+    <item>
+      <title>Board 1.6.3</title>
+      <pubDate>Sat, 26 Sep 2026 06:53:56 +0000</pubDate>
+      <sparkle:version>29</sparkle:version>
+      <sparkle:shortVersionString>1.6.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<style>body{font:13px -apple-system,sans-serif;line-height:1.45}h3{font-size:13px;margin:12px 0 4px}ul{padding-left:18px;margin:4px 0}li{margin:3px 0}</style>
+<h3>Added</h3>
+<ul>
+<li><b>Refresh the glances yourself.</b> <b>⌘R</b> (View ▸ Refresh Glances, or ⌘K) fetches Gmail, the calendar, ClickUp, Plane, GitHub and the weather at once. Opening a glance's popover fetches that one, and the ↻ beside "Updated …" does it again, with "Refreshing…" while it works.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/YahiaES/board-releases/releases/download/v1.6.3/Board-1.6.3.dmg" type="application/octet-stream" sparkle:edSignature="ojlepesWyGaRldcFhksE9GOHQXpmg1XYQejU7EHUYhM+24OfZ/bEexb1mMXvWsNX08Kv5zZ7c9tNDz2bPVF6Cw==" length="8208743"/>
+    </item>
