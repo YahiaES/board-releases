@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+  <channel>
+    <title>Board</title>
+    <link>https://github.com/YahiaES/board-releases</link>
+    <language>en</language>
+    <item>
+      <title>Board 1.6.0</title>
+      <pubDate>Sat, 26 Sep 2026 05:53:29 +0000</pubDate>
+      <sparkle:version>26</sparkle:version>
+      <sparkle:shortVersionString>1.6.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<style>body{font:13px -apple-system,sans-serif;line-height:1.45}h3{font-size:13px;margin:12px 0 4px}ul{padding-left:18px;margin:4px 0}li{margin:3px 0}</style>
+<h3>Added</h3>
+<ul>
+<li><b>Board updates itself.</b> It checks for a new version once a day (or now, with <b>Board ▸ Check for Updates…</b>), shows what's new, and installs it in place. <b>Settings ▸ General ▸ Updates</b> can turn the check off, or install new versions quietly when Board quits. Every update and the list of updates are signed, and Board refuses anything that isn't.</li>
+</ul>
+<h3>Changed</h3>
+<ul>
+<li><b>Google needs your own OAuth client, entered in Settings ▸ Accounts.</b> Builds no longer bundle one from a local config file, since published builds are public.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/YahiaES/board-releases/releases/download/v1.6.0/Board-1.6.0.dmg" type="application/octet-stream" sparkle:edSignature="9yEYr2VswMMJUtgqZ0SusQyJREkLXguSpTDqpD48HbXB/VaO6gEHq2QZALPnTcx1gby1LDj711Y8Wg/GCFM4Bg==" length="8180919"></enclosure>
+    </item>
+  </channel>
+</rss><!-- sparkle-signatures:
+edSignature: VZFG1Yx3XMHJ2qdkQLveawwa8NB/1XORSBNE1NStlPWZxNHLalnNzFmEEiiHKV8Gw4tNucPH+89h52qWNq3RDw==
+length: 1917
+-->
