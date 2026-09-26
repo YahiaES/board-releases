@@ -6,6 +6,21 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <link>https://github.com/YahiaES/board-releases</link>
     <language>en</language>
     <item>
+      <title>Board 1.6.1</title>
+      <pubDate>Sat, 26 Sep 2026 06:09:14 +0000</pubDate>
+      <sparkle:version>27</sparkle:version>
+      <sparkle:shortVersionString>1.6.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<style>body{font:13px -apple-system,sans-serif;line-height:1.45}h3{font-size:13px;margin:12px 0 4px}ul{padding-left:18px;margin:4px 0}li{margin:3px 0}</style>
+<h3>Fixed</h3>
+<ul>
+<li><b>After ambient mode in the window,</b> the board responds to the first click again. When I'd switched to another app or screen and came back with a click to leave ambient mode, that click didn't focus Board's window, so the next click in the sidebar or board only focused it.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/YahiaES/board-releases/releases/download/v1.6.1/Board-1.6.1.dmg" type="application/octet-stream" sparkle:edSignature="xhuy/1cK7ISN0bmbgui+Rr8zGmNDPPgqb93bv9NDmOoLp+UakIJtLuk5uO7DSBHw6ZZSy41w4xkVj/zxeoXNBw==" length="8180223"></enclosure>
+    </item>
+    <item>
       <title>Board 1.6.0</title>
       <pubDate>Sat, 26 Sep 2026 05:53:29 +0000</pubDate>
       <sparkle:version>26</sparkle:version>
@@ -26,6 +41,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: VZFG1Yx3XMHJ2qdkQLveawwa8NB/1XORSBNE1NStlPWZxNHLalnNzFmEEiiHKV8Gw4tNucPH+89h52qWNq3RDw==
-length: 1917
+edSignature: EIAdZPzyMzzkWVcP4TeyWejfbcqfvcyLbkeysGUSiRmbn+Ha3xCZcpiTJ59uD5TbdlzQ5euayJOIsRh4h6zQCQ==
+length: 3019
 -->
