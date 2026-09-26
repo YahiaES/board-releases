@@ -6,6 +6,25 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <link>https://github.com/YahiaES/board-releases</link>
     <language>en</language>
     <item>
+      <title>Board 1.6.2</title>
+      <pubDate>Sat, 26 Sep 2026 06:42:51 +0000</pubDate>
+      <sparkle:version>28</sparkle:version>
+      <sparkle:shortVersionString>1.6.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<style>body{font:13px -apple-system,sans-serif;line-height:1.45}h3{font-size:13px;margin:12px 0 4px}ul{padding-left:18px;margin:4px 0}li{margin:3px 0}</style>
+<h3>Changed</h3>
+<ul>
+<li><b>Glances refresh faster while you're looking</b> (Board in front, ambient mode, or the menu bar panel): Gmail every minute, and ClickUp, Plane and GitHub every 2 minutes instead of 5, so a new ticket shows up within a couple of minutes. The slower pace while nobody's looking is unchanged.</li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+<li><b>"Updated … ago"</b> on a glance showed when its data last <i>changed</i>, so a quiet inbox looked 14 minutes out of date. It now shows when Board last checked.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/YahiaES/board-releases/releases/download/v1.6.2/Board-1.6.2.dmg" type="application/octet-stream" sparkle:edSignature="29z6QsfsOsQ3mLGx4KrenlWVGQenGgSp6NP5BVvk2jJ+VHBJxIXbWn5Ikkcd+ySbZaBAaxj6gyqpVzg7ejvTBQ==" length="8194020"></enclosure>
+    </item>
+    <item>
       <title>Board 1.6.1</title>
       <pubDate>Sat, 26 Sep 2026 06:09:14 +0000</pubDate>
       <sparkle:version>27</sparkle:version>
@@ -41,6 +60,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: EIAdZPzyMzzkWVcP4TeyWejfbcqfvcyLbkeysGUSiRmbn+Ha3xCZcpiTJ59uD5TbdlzQ5euayJOIsRh4h6zQCQ==
-length: 3019
+edSignature: rpNpZlCl/EAMTWgdR8+/v6M3pH14mhJfZjNrdyyB+LOlKgnM72qRu0gVVp1ofWuHkWwG3aVTmBJRPEdAeGrlCw==
+length: 4337
 -->
