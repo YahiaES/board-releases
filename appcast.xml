@@ -6,6 +6,40 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <link>https://github.com/YahiaES/board-releases</link>
     <language>en</language>
     <item>
+      <title>Board 1.7.0</title>
+      <pubDate>Sun, 27 Sep 2026 22:54:27 +0000</pubDate>
+      <sparkle:version>40</sparkle:version>
+      <sparkle:shortVersionString>1.7.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<style>body{font:13px -apple-system,sans-serif;line-height:1.45}h3{font-size:13px;margin:12px 0 4px}ul{padding-left:18px;margin:4px 0}li{margin:3px 0}</style>
+<p>The launch release: a welcome, licensing, Connections (with Mail, Linear, Jira and GitLab), and optional sorting with Jev.</p>
+<h3>Added</h3>
+<ul>
+<li><b>Linear, Jira Cloud and GitLab.</b> Read-only, with a personal token: your open Linear issues and Jira issues by state, and GitLab merge requests waiting for your review by project, in the sidebar, the menu bar panel and ambient mode, each item a click from a task. Rate limits are respected.</li>
+<li><b>Licensing.</b> Board is $29 once, through Lemon Squeezy, with a 14-day free trial; one license works on up to 3 Macs. <b>Settings ▸ License</b> shows the trial's days left or who it's licensed to, takes a license key, and deactivates this Mac. The <b>Board</b> menu shows the days left, with <b>Buy Board…</b> and <b>Enter License…</b>. In the trial's last three days a small note at the foot of the board says so (× hides it until tomorrow).</li>
+<li><b>After the trial, without a license, the board is read-only.</b> Everything stays visible and searchable, and integrations, ambient mode and focus sessions carry on; a calm banner at the foot of the board explains, with Buy and Enter License Key…. Nothing is ever lost or hidden, and quitting is never blocked.</li>
+<li>A license is checked at launch and about once a week. Offline, it keeps working for 30 days after the last good check. Only the key, this Mac's name and Board's version are sent to Lemon Squeezy.</li>
+<li><b>Unread mail from Mail or Outlook, with no setup.</b> In Settings, set <i>Unread mail from</i> to <b>Mail</b> or <b>Outlook</b>, and the mail glance, its popover (newest unread, each one a click from a task), and ambient mode's "N unread" come from the app you already use. Board reads only the unread count and the newest messages' subject, sender and date, and only while the app is open: it never launches it, never reads bodies, and never changes mail. macOS asks once, when you pick the app. The source starts off; Gmail users stay on Gmail. The New Outlook can't be read this way, and Settings says so.</li>
+<li><b>Sorting with Jev (optional, off by default).</b> With your own TypeSafe API key (Settings ▸ Connections ▸ Intelligence, kept in the Keychain), Board asks Jev which group a captured task belongs in and its priority. Suggestions appear as sparkle chips in quick capture and a new task's title, applied on ↩ unless you remove them; <code>#group</code> and <code>!priority</code> always win, only confident answers show, and capture never waits for Jev. <b>Sort Inbox…</b> (View menu, ⌘K) reviews suggestions for every Inbox task and applies the checked ones as one undo step. When on, the text of each task you capture is sent to TypeSafe (Jev) to suggest a group and priority. Nothing else is sent.</li>
+<li><b>Board for AI assistants (MCP).</b> Claude Desktop, Claude Code, Codex or any MCP app can read your board (tasks, groups, a week's summary, today with its meetings), and, if you allow it, your connections (Plane, GitHub and the other work services' open items, the coming week's meetings), and change the board: create tasks in capture syntax or from a work item or meeting, update, complete, comment, move to a week, delete. Settings ▸ Connections ▸ <b>AI assistants</b> has three switches, all off until you turn them on (read; make changes; see your connections' items: what each Connections tile says, your open work and review requests, and the coming week's meetings, never a token or mail), the assistants seen lately, and copy-ready setup for each. Assistants run <code>Board --mcp</code>, which talks to the running app over a private socket in Board's container (and opens Board in the background if needed). Every change is one undo step named for the assistant ("Undo Claude: Move to Done"). Board needs no account; the assistant sends what it reads to its own service.</li>
+<li><b>More ways to repeat:</b> <b>Every Other Day</b>, and <b>Choose Days…</b>, which opens straight on the day picker so a task can repeat on, say, Monday, Wednesday and Friday.</li>
+<li><b>A welcome on first launch.</b> Four short steps over the window, each one optional: what Board is and the keys to start with (⌘N, ⌃⌥⌘N, ⌘K); your calendar, read from this Mac (Google accounts added in System Settings ▸ Internet Accounts included), with <b>Allow Access</b> right there; prayer times, the weather and work accounts; and ambient mode, with a live preview and when it starts by itself. It's shown once, and <b>Help ▸ Welcome to Board</b> brings it back.</li>
+</ul>
+<h3>Changed</h3>
+<ul>
+<li><b>Settings ▸ Connections is a grid of tiles</b>, one per service, in groups: <i>On this Mac</i> (Calendar, Mail), <i>Around you</i> (Weather, Prayer times), <i>Work</i> (connected first, busiest first), <i>Intelligence</i> (Jev, AI assistants) and <i>Advanced</i> (Google). A badge on each tile says how it stands: a count when something is waiting, a green dot when all is well, a red <b>!</b> when it needs you, <b>+</b> when it isn't connected. Point at a tile for its full status under the grid; click it for a sheet with all its settings (the weather's and prayer times' included), and <b>Show in ambient mode</b>, which moves there from Settings ▸ Ambient ▸ Glances. A work service that needs attention opens with <b>Reconnect…</b> first. Every setting and connection carries over.</li>
+<li><b>Settings ▸ Accounts is now Connections.</b> Connecting a work service opens a sheet with a link to the exact page for the token and a <b>Test</b> button that says what it found; managing one has Refresh Now, Replace Token… and Disconnect. ClickUp, Plane and GitHub keep their saved tokens: nothing disconnects on update.</li>
+<li><b>The calendar comes first.</b> <i>This Mac's calendars</i> is the default and needs no setup. Gmail, and Google Calendar through Google's API, sit under <b>Advanced</b> (the Google tile), since they need a Google Cloud OAuth client of your own. If Google is already connected, everything keeps working.</li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+<li><b>Demo runs no longer touch real settings</b> (Debug builds, <code>-BoardDemo YES</code>). They keep their preferences in a domain of their own, emptied at each launch, keep the Keychain in memory, and don't save the window's size, so a run for screenshots can't change the real scope, sidebar width or ambient choices.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/YahiaES/board-releases/releases/download/v1.7.0/Board-1.7.0.dmg" type="application/octet-stream" sparkle:edSignature="Re69zAfnGJp9kOhj7tRdeqHQAbzqWfAJgRtrvWLP5aoCnawdIDcG4iiK+mEp2M+sE/7CJ5jTn1UErUjjoNj4Bw==" length="9526765"></enclosure>
+    </item>
+    <item>
       <title>Board 1.6.6</title>
       <pubDate>Sat, 26 Sep 2026 08:44:33 +0000</pubDate>
       <sparkle:version>32</sparkle:version>
@@ -126,6 +160,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: CIrVLrj3asgppH/sSPyiDHXGfJrjRtRvp62z/RtQq1lLGfb5FiD5QeNNng2psEuBtj1WNTjQnozatSaDeaDHAw==
-length: 9208
+edSignature: rxo2e73iAkK8dxTamc9DvKnKTyKKY2jxkX5Eg4rjWpbOalSd7ve6XQB5aB1nvAzO+o7tvUQynyGBpXId+nG7DQ==
+length: 16405
 -->
