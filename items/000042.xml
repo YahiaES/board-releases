@@ -1,0 +1,40 @@
+    <item>
+      <title>Board 1.8.0</title>
+      <pubDate>Tue, 20 Oct 2026 03:53:03 +0000</pubDate>
+      <sparkle:version>42</sparkle:version>
+      <sparkle:shortVersionString>1.8.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+<style>body{font:13px -apple-system,sans-serif;line-height:1.45}h3{font-size:13px;margin:12px 0 4px}ul{padding-left:18px;margin:4px 0}li{margin:3px 0}</style>
+<p>The store opens, and a round of fixes from a review of the whole app.</p>
+<h3>Added</h3>
+<ul>
+<li><b>Buy Board.</b> $27.99 once, through Lemon Squeezy. On a Mac in Jordan (by its region, time zone or a "-JO" language, as on the website) the price shows as JOD 19.85, with a note everywhere it's shown, the Board menu included, that checkout bills $27.99 in US dollars. It follows a change of region or time zone without a relaunch.</li>
+<li><b>Click outside a task to close it.</b> A click on the board outside any card, or on the header, closes the details panel and keeps the selection, as Esc does. A click on another card opens that one instead.</li>
+</ul>
+<h3>Changed</h3>
+<ul>
+<li><b>Check Now says what it found</b> (Settings ▸ License): "Checking…" while it asks, then that the license is active, why it isn't, or that Lemon Squeezy couldn't be reached.</li>
+<li><b>A license stays with the Mac it was activated on</b>, and entering the same key again checks this Mac's activation rather than spending another one; a different key frees the old activation.</li>
+<li><b>AI assistants:</b> <code>today</code> shows meetings only when you've shared your connections, like the other connection tools. <code>delete_task</code> says when a deletion can't be undone (Board's window closed) instead of promising undo.</li>
+<li><b>A save that fails is said once</b>, in an alert, rather than lost quietly; the rest are logged.</li>
+<li><b>Google Calendar reads every page</b> of the coming week, and asks Google to leave out working-location events.</li>
+<li><b>Connect right after Test</b> uses what Test found, so a work service isn't asked for everything twice.</li>
+<li><b>Jev's note says what is sent:</b> the task's text, its due date and your group names.</li>
+</ul>
+<h3>Fixed</h3>
+<ul>
+<li><b>Prayer times on the days the clocks change</b> were an hour off after the change, and the evening before could skip the next day. A summer Isha after midnight (far north) is no longer skipped, and the chime stops when <i>Show next prayer</i> is off.</li>
+<li><b>Notes an assistant writes while the task is open</b> show at once, rather than being overwritten by your next keystroke.</li>
+<li><b>Focus sessions:</b> +10 min or Back to it during the meeting that ended a session keeps going; a meeting inside a long event (say "WFH 9–5") gets its warning and ends the session; the Mac sleeping pauses the session, and changing the clock is neither counted nor taken off.</li>
+<li><b>A malformed date from an AI assistant</b> no longer quits Board. Times with a zone but no seconds are read, and days that don't exist (31 September) are refused.</li>
+<li><b>Times on the days the clocks change:</b> reminders "on the day", End of Week, Add time, the weekly review and wind-down are no longer an hour off.</li>
+<li><b>Moving to another time zone</b> moves Today, Overdue and the week with you.</li>
+<li><b>A task deleted while the carry-over prompt or the weekly review is open</b> is left out rather than moved.</li>
+<li><b>A Keychain that can't be read</b> no longer turns a licensed copy read-only.</li>
+<li><b>The ambient sound</b> stops properly when the audio device changes as it fades out, the focus sound plays while ambient mode is silent, and the sound follows Reduce Motion.</li>
+<li><b>Smaller things:</b> ⌥⌘K opens the details panel to add a comment; the custom monthly repeat saves the day it shows; a thrown-away blank task can't come back with ⌘Z; ⌫ on a read-only board leaves the selection where it was; the selection no longer lands on a folded Done column; cursors no longer stick after a panel closes; Sort Inbox leaves tasks changed while it was open; the widgets see a focus session end when Board quits, and reload less often; buttons that are only an icon have names for VoiceOver.</li>
+</ul>
+      ]]></description>
+      <enclosure url="https://github.com/YahiaES/board-releases/releases/download/v1.8.0/Board-1.8.0.dmg" type="application/octet-stream" sparkle:edSignature="GklatAvPsmEH7KiRV+k3z2Sl2NgQwobS7TYzC/t1rDCaJXia5o4ipTGNeMg3VOGXQdSiVpLBaFP9rnGvx1pjDg==" length="9612082"/>
+    </item>
